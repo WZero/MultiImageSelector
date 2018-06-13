@@ -15,3 +15,6 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+-keep class me.nereo.multi_image_selector.MultiImageSelector {
+    public <methods>;
+}
